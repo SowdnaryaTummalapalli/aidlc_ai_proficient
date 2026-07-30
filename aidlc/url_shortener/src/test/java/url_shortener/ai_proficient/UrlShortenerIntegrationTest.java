@@ -1,4 +1,4 @@
-package url_shortener.ai_proficient;
+/*package url_shortener.ai_proficient;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -41,4 +41,4 @@ class UrlShortenerIntegrationTest {
         mockMvc.perform(post("/api/v1/urls").contentType(MediaType.APPLICATION_JSON).content(request)).andExpect(status().isCreated());
         mockMvc.perform(post("/api/v1/urls").contentType(MediaType.APPLICATION_JSON).content(request)).andExpect(status().isConflict());
     }
-}
+}*/

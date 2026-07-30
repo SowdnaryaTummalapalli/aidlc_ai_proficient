@@ -28,6 +28,8 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<!-- Keeps Maven and IntelliJ Maven import on the same bytecode target. -->
+		<maven.compiler.release>${java.version}</maven.compiler.release>
 	</properties>
 	<dependencies>
 		<dependency>
